@@ -67,3 +67,7 @@
     - Line Notify - 011510
     - Expression/Operator - 014930
     - Python GUI w/ try/except - 020930
+# EP.6
+    - Condition [if/elif/else] - 001220
+    - While loop - 014120
+    - for loop - 021100

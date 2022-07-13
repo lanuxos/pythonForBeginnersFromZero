@@ -55,3 +55,9 @@
 	    - QPython 3L
 	    - Pythonista 3
 	    - Pyto
+# EP.4
+    - list - 001645
+    - tuple - 004545
+    - dictionary - 010505
+    - Install PyAutoGUI - 022145
+    - Basic GUI - 022620

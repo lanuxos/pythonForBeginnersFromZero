@@ -61,3 +61,9 @@
     - dictionary - 010505
     - Install PyAutoGUI - 022145
     - Basic GUI - 022620
+# EP.5
+    - Github - 001200
+    - Install songline - 011250
+    - Line Notify - 011510
+    - Expression/Operator - 014930
+    - Python GUI w/ try/except - 020930

@@ -71,3 +71,6 @@
     - Condition [if/elif/else] - 001220
     - While loop - 014120
     - for loop - 021100
+# ep.7
+    - Web scraping - 001100
+    - Write to CSV - 015800

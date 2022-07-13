@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+basicbashcmd/__init__.py
+basicbashcmd/basicbash.py
+basicbashcmd.egg-info/PKG-INFO
+basicbashcmd.egg-info/SOURCES.txt
+basicbashcmd.egg-info/dependency_links.txt
+basicbashcmd.egg-info/top_level.txt

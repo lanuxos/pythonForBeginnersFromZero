@@ -1,0 +1,50 @@
+Metadata-Version: 1.1
+Name: basicbashcmd
+Version: 0.0.2
+Summary: Basic Bash Command
+Home-page: https://github.com/phpsth/basicbashcmd
+Author: La
+Author-email: phpstm@gmail.com
+License: MIT
+Download-URL: https://github.com/phpsth/basicbashcmd
+Description: This package is show you how to use bash command
+        ================================================
+        
+        PyPi: https://pypi.org/project/basicbashcmd
+        
+        Installation
+        ------------
+        
+        Launch CMD / Terminal
+        
+        .. code:: python
+        
+           pip install basicbashcmd
+        
+        Usage
+        -----
+        
+        -  Launch IDLE and type…
+        
+        .. code:: python
+        
+           from basicbash import Bash
+           b = Bash()
+           b.list()
+           b.desc('cd')
+           b.cmd('cp')
+        
+Keywords: bash,command
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10

@@ -1,0 +1,322 @@
+@font-face {
+    font-family: 'defago';
+    src: url('./defago.ttf') format('truetype');
+}
+
+* {
+    font-family: 'defago', 'Defago Noto Sans',
+        'Phetsarath OT',
+        'Times New Roman';
+    font-size: 1em;
+}
+
+@media print{
+    .table thead tbody tfoot th tr td {
+        border:  1px solid black;
+    }
+}
+
+.english {
+    font-family: 'Times New Roman';
+}
+
+.lao {
+    font-family: 'defago', 'Defago Noto Sans', 'Phetsarath OT';
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-5 {
+    width: 5%;
+}
+.w-4 {
+    width: 4%;
+}
+.w-3 {
+    width: 3%;
+}
+.w-2 {
+    width: 2%;
+}
+.w-1 {
+    width: 1%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-95 {
+    height: 95%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-85 {
+    height: 85%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.h-75 {
+    height: 75%;
+}
+
+.h-70 {
+    height: 70%;
+}
+
+.h-65 {
+    height: 65%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-55 {
+    height: 55%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-45 {
+    height: 45%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.h-35 {
+    height: 35%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.h-25 {
+    height: 25%;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.h-15 {
+    height: 15%;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.h-5 {
+    height: 5%;
+}
+.h-4 {
+    height: 4%;
+}
+.h-3 {
+    height: 3%;
+}
+.h-2 {
+    height: 2%;
+}
+.h-1 {
+    height: 1%;
+}
+
+table {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+body {
+    margin-bottom: 60px;
+    /* Margin bottom by footer height */
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    /* Don't forget this, required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    background: darkslategrey;
+}
+
+.fitcontent {
+    width: fit-content;
+}
+/* TABLE HEADER ROTATION */
+th.rotate {
+    /* Something you can count on */
+    height: 30px;
+    white-space: nowrap;
+}
+
+th.rotate>div {
+    transform:
+        /* Magic Numbers */
+        /* translate(25px, 51px) */
+        /* 45 is really 360 - 45 */
+        rotate(340deg);
+    width: 30px;
+}
+
+th.rotate>div>span {
+    border-bottom: 1px solid #556b2f;
+    padding: 1px 1px;
+}
+/* USAGE <th><div><span> CONTENT </span></div></th> */
+/* TABLE HEADER ROTATION */
+
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+    background-color: black;
+    color: black;
+    text-align: center;
+}
+
+.darkolivegreenbg {
+    background-color: #556b2f;
+}
+
+.darkolivegreen {
+    color: #556b2f;
+}
+
+.navbar {
+    width: 100%;
+}
+.nocursor {
+    cursor: none;
+}
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.nowrap-overflow {
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+:root {
+  --bs-blue: #556b2f;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #556b2f;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}

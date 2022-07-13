@@ -1,0 +1,22 @@
+{% extends 'python/base.html' %}
+{% block content %}
+<div class="container">
+    <h1 class="text text-info">Home Page Contents' Display Here</h1>
+    <a href="{% url 'contact-page' %}">Go to contact page</a>
+</div>
+<div class="container">
+    {% for pd in allProducts%}
+        <div class="row m-2">
+            {% for p in pd %}
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-head bg bg-dark text text-info text-center">{{ p.name }}</div>
+                    <div class="card-body">{{ p.detail }}</div>
+                    <div class="card-foot bg bg-dark text text-warning text-end">Price: {{ p.price }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>
+{% endblock content %}

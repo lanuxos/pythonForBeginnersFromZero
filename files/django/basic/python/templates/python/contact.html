@@ -1,0 +1,20 @@
+{% extends 'python/base.html' %}
+{% block content %}
+<div class="container">
+    <h1 class="text text-info">Contact Page Contents' Display Here</h1>
+    <a href="{% url 'home-page' %}">Go to home page</a>
+</div>
+<div class="container text text-info p-2">
+    <form action="" method="post">
+        {% csrf_token %}
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+        <label for="title">Topic:</label>
+        <input type="text" class="form-control" name="title" id="title" placeholder="Title">
+        <label for="detail">Detail:</label>
+        <textarea class="form-control" name="detail" id="detail" cols="30" rows="10" placeholder="Detail"></textarea>
+        <br>
+        <button type="submit" class="btn btn-outline-info form-control">Submit</button>
+    </form>
+</div>
+{% endblock content %}

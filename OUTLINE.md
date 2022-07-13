@@ -127,3 +127,15 @@
     - Configure template directory - 014405
     - Bootstrap - 015200
     - Port forwarding - 020615
+# EP.12
+    - Template overview - 001500
+    - Create base.html - 001900
+    - urls' alias - 005200
+    - Form - 005830
+    - Model - 014200
+    - Show models on admin dashboard - 015415
+    - Migrate database - 015930
+    - Python iteration - 021100
+    - Fetch data - 023400
+    - Iteration on html template
+    - Save data to database - 024830

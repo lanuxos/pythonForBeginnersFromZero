@@ -74,3 +74,6 @@
 # ep.7
     - Web scraping - 001100
     - Write to CSV - 015800
+# EP.8
+    - OOP Introduction - 001450
+    - Workshop - 011925

@@ -105,3 +105,25 @@
         - Register PyPi account [phpsth]
     - myFirstLibrary - 010800
     - Install manually - 031300
+# EP.11
+    - Django introduction - 000730
+    - Install Virtual Environment - 002000
+    - Create virtual environment - 002626
+    - Activate virtualenv - 002900
+    - Install Django - 003620
+    - Create project - 003930
+    - Run server
+    - Migrate database - 004920
+    - Create app - 005035
+    - Create super user - 005235
+    - Start coding - 010215
+    - Create urls.py - 010510
+    - Configure the project's urls.py to include app's urls.py
+    - Configure the project's settings.py
+    - Code the first views' function
+    - Voila! you just echo Hello world on Django project
+    - HTML introduction - 013200
+    - Template - 013600
+    - Configure template directory - 014405
+    - Bootstrap - 015200
+    - Port forwarding - 020615
